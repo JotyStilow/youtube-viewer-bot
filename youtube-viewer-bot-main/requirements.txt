@@ -1,4 +1,4 @@
-selenium-driverless>=1.6.0
-asyncio
-pathlib
 selenium-driverless
+selenium
+websockets
+aiohttp
