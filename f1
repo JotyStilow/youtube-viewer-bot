@@ -1,0 +1,14 @@
+# Initialize git repository
+git init
+
+# Add all files
+git add .
+
+# Make first commit
+git commit -m "Initial commit: YouTube viewer bot"
+
+# Add your GitHub repository as origin (replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/youtube-viewer-bot.git
+
+# Push to GitHub
+git push -u origin main
