@@ -33,9 +33,11 @@ RUN mkdir -p /app/chrome_profiles && chmod 755 /app/chrome_profiles
 # Set environment variables
 ENV DISPLAY=:99
 ENV PYTHONUNBUFFERED=1
+ENV CHROME_BIN=/usr/bin/google-chrome
+ENV GOOGLE_CHROME_BIN=/usr/bin/google-chrome
 
 # Expose port (if needed for monitoring)
 EXPOSE 8080
 
 # Start command
-CMD ["python", "main.py"]
+CMD ["python3", "main.py"]
